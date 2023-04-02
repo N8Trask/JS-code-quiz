@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Code Quiz</title>
+    <link rel="stylesheet" href="Develop/style.css">
 </head>
 <body>
-    
+    <div class="body">
+        <header>
+            <div class="header">
+                <h1>Coding Quiz Challenge</h1>
+            </div>
+            <div id="hideContent" style="display: block;">
+                <div class="content">
+                    <p>Try to answer the following code-related questions within the time limit. Keep in mind that
+                        incorrect
+                        answers will penalize your score/time by ten seconds!</p>
+                </div>
+                <div class="startButton">
+                    <button class="startQuiz">Start Quiz</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container" style="display: none;">
+                <section>
+                    <div>
+                        <p id="questionP"></p>
+                        </di>
+                        <div class="choiceButtons">
+                            <button id="btn1" class="btn">choice1</button>
+                            <button id="btn2" class="btn">choice2</button>
+                            <button id="btn3" class="btn">choice3</button>
+                            <button id="btn4" class="btn">choice4</button>
+                        </div>
+                        <hr>
+                        <div>
+                            <p id="answer" style="display: block;"></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="InitialScore">
+                <div class="storeInfo" style="display: none;">
+                    <p id="doneAlert">All done! </p>
+                    <p id="scoreAlert">Your final score is: </p>
+                    <p id="score"></p>
+
+                    <label id="labelInitials" for="initials">Enter Initials</label>
+                    <input type="text" id="initials" placeholder="Enter Initials">
+                    <button id="submitInitials">Submit</button>
+                </div>
+                <div class="savedInfo" style="display: none;">
+                    <p id="highScores">High Scores</p>
+
+                    <ul id="savedScores">
+
+                    </ul>
+                    <button id="btnClearHighScores">Clear High Scores</button>
+                    <button id="btnGoBack">Go Back</button>
+                </div>
+            </div>
+
+            <div class="timer" style="display: block;">
+                <div class="timer-text">
+                    <div id="timerCount" class="timer-count">
+                    </div>
+                    <p id="timeLeft" style="display: block;">Time:
+                    <p>
+                </div>
+            </div>
+    </div>
+    <script src="Develop/script.js"></script>
 </body>
 </html>
