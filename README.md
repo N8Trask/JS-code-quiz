@@ -7,4 +7,4 @@ We were tasked with creating a Java script coding quiz from scratch. I struggled
 
 Click [link](https://n8trask.github.io/JS-code-quiz/) to visit my JavaScript Code Quiz
 
-![screenshot]Develop/codeQuiz.png
+![screenshot](Develop/codeQuiz.png)
