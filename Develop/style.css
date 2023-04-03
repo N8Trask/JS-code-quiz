@@ -1,3 +1,161 @@
 * {
     font-family: monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9eef4;
+
+}
+
+.body {
+    background-color: #78a6c8;
+    width: 900px;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.content p {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+
+.startButton {
+    display: flex;
+    justify-content: center;
+}
+
+.startQuiz {
+    background-color: #e65c4f;
+    color: #132620;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 45px 0 20px 0;
+    border-radius: 5px;
+}
+
+.startQuiz:hover {
+    background-color: #326789
+}
+
+.container {
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#questionP {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.choiceButtons {
+    display: grid;
+    gap: 7px;
+    height: 80px;
+    width: 85%;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #e65c4f;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #326789;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+#answer {
+    font-weight: italic;
+    font-size: 15px;
+    margin: 5px 10px 5px 10px;
+}
+
+#doneAlert {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#scoreAlert {
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+}
+
+#score {
+    font-size: 15px;
+    margin-left: 25%;
+}
+
+#labelInitials {
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+}
+
+#initials {
+    font-size: 15px;
+    margin: 10px
+}
+
+#timerCount {
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+}
+
+#timeLeft {
+    font-size: 15px;
+    margin: -18px 0 15px 60px;
+}
+
+.timer {
+    margin: 10px 200px 10px 0;
+}
+
+.savedInfo {
+    padding: 10px;
+    margin: 5px 0 20px 30px;
+}
+
+#highScores {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 10px;
+    margin: 10px 0 30px 0;
 }
